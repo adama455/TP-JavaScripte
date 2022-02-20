@@ -11,25 +11,27 @@
 </head>
 <body>
     <div class="container-fluide">
-        <div class="container">
-            <h1>Quel est le Meilleur Langages de programmation en 2022</h1>
-            <div class="choix">
-                <input type="radio" id="java" name="ckoice"> 
-                <label for="java">Java</label> 
-            </div>
-            <div class="choix">
-                <input type="radio" id="c" name="ckoice"> 
-                <label for="c">C</label> 
-            </div>
-            <div class="choix">
-                <input type="radio" id="python" name="ckoice"> 
-                <label for="python">Python</label> 
-            </div>
-            <div class="choix">
-                <input type="radio" id="javascript" name="ckoice"> 
-                <label for="javascript">JavaScript</label> 
-            </div>
-            <button class="suivant">Suivant</button>
+        <div class="container" id="quiz">
+            <h1 id="question">Quel est le Meilleur Langages de programmation en 2022</h1>
+            <ul>
+                <li class="choix">
+                    <input type="radio" id="java" name="ckoice" class="choice" id="a" > 
+                    <label id="a_texte" for="java">Java</label> 
+                </li>
+                <li class="choix">
+                    <input type="radio" id="c" name="ckoice" class="choice" id="b" > 
+                    <label id="b_texte" for="c">C</label> 
+                </li>
+                <li class="choix">
+                    <input type="radio" id="python" name="ckoice" class="choice" id="c" > 
+                    <label id="c_texte" for="python">Python</label> 
+                </li>
+                <li class="choix">
+                    <input type="radio" id="javascript" name="ckoice" class="choice" id="d" > 
+                    <label id="d_texte" for="javascript">JavaScript</label> 
+                </li>
+            </ul>
+            <button class="suivant" id="suivant" >Suivant</button>
 
 
             <script src="script.js"></script>  

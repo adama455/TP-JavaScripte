@@ -25,13 +25,15 @@ add.addEventListener("click",function () {
         //  creation Icone Edite
         var iconEdit=document.createElement("i");
         iconEdit.className="fa-solid fa-pen-to-square";
+        iconEdit.style.fontSize='25px';
         iconEdit.style.color='white';
         
         //creation Icone Corbeille 
         var iconCorblle=document.createElement("i");
         iconCorblle.className="far fa-trash-alt";
         iconCorblle.style.color='white';
-        
+        iconCorblle.style.fontSize='25px';
+
         
         
         // creation textarea
