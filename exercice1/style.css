@@ -68,6 +68,27 @@ textarea {
     border: none;
     min-width: 100px;
 } 
+.pagination{
+    display: flex;
+    width: 100%;
+}
+.btn{
+    font-size:30px;
+    color:blueviolet; 
+    height:6vh; 
+    font-weight:bold; 
+    width:10vw;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(13, 138, 13);
+    color: white;
+}
 /* .action-icons{
     display: flex;
     background-color: darkseagreen;

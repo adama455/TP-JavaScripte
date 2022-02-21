@@ -7,8 +7,9 @@
     display: flex;
     background-color: rgb(180, 176, 176);
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 95vh;
+    flex-direction: column;
 }
 .container{
     background-color: white;
@@ -61,4 +62,17 @@ background-color: green;
 }
 button:focus{
     background-color: rgb(83, 229, 240);   
-    }
+}
+
+.pagination{
+    width: 100%;
+}
+.btn{
+    font-size:30px;
+    color:blueviolet; 
+    height:6vh; 
+    font-weight:bold; 
+    width:10vw;
+    border: none;
+    border-radius: 0.5rem;
+}
