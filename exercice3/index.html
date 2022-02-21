@@ -11,30 +11,33 @@
 </head>
 <body>
 <div class="container-fluide">
-    <div class="container">
-        <div class="affichePassword">I823Zs78#Css09@</div>
-        
-        <div class="critere-Password">
-            <label for="">Longueur du Password</label>
-            <input class="lenghtPassword" type="number" id="" name="" value="" min="5" max="20" >
+    <div class="container" id="container">
+        <div id="passwordEtCopie">
+            <input class="affichePassword" id="affichePassword" value="I823Zs78#Css09@">
+            <button type="button" name="copie" id="copie" class="visible">Copy</button>
         </div>
-        <div class="critere-Password">
-            <label for="">Contient des Lettre Majuscules</label>
-            <input type="checkbox" id="" name="" value="" >
+        <div class="critere-Password" id="critere1">
+            <label for="" id="texte1">Longueur du Password</label>
+            <input class="lenghtPassword" id="saisieCritre1" type="number" id="" name="" value="15" min="5" max="20" >
         </div>
-        <div class="critere-Password">
-            <label for="">Contient des Lettre Minuscules</label>
-            <input type="checkbox" id="" name="" value="" >
+        <div class="critere-Password" id="critere2">
+            <label for="" id="texte2">Contient des Lettre Majuscules</label>
+            <input type="checkbox" id="saisieCritre2" name="" value="" >
         </div>
-        <div class="critere-Password">
-            <label for="">Contient des Nombres</label>
-            <input type="checkbox" id="" name="" value="" >
+
+        <div class="critere-Password" id="critere3">
+            <label for="" id="texte3">Contient des Lettre Minuscules</label>
+            <input type="checkbox" id="saisieCritre3" name="" value="" >
         </div>
-        <div class="critere-Password">
-            <label for="">Contient des Caracteres Speciaux</label>
-            <input type="checkbox" id="" name="" value="" >
+        <div class="critere-Password" id="critere4">
+            <label for="" id="texte4">Contient des Nombres</label>
+            <input type="checkbox" id="saisieCritre4" name="" value="" >
         </div>
-        <div>
+        <div class="critere-Password" id="critere5">
+            <label for="" id="texte5">Contient des Caracteres Speciaux</label>
+            <input type="checkbox" id="saisieCritre5" name="" value="" >
+        </div>
+        <div id="btnGeneration">
             <button class="generationPassword">Generer Mot de Passe </button>
         </div>
 

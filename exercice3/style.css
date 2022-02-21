@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color: white;
+    
 }
 .container-fluide{
     display: flex;
@@ -10,6 +11,9 @@
     height: 98vh;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-wrap: wrap;
 }
 .container{
     display: flex;
@@ -17,25 +21,57 @@
     justify-content: center;
     /* align-items: center; */
     width: 30vw;
+    box-shadow: rgba(79, 74, 83, 0.5);
     height: 30vw;
     background-color: rgb(41, 6, 75);
     padding: 2rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    
 }
 .critere-Password{
     display: flex;
     justify-content: space-between;
     padding: 1rem 0 ;
 }
+#passwordEtCopie{
+    display: flex;
+    background-color: rgb(69, 5, 129);
+    margin-bottom: 1.5rem;
+    height: 8.5vh;
+
+
+
+    /* background-color: rgb(69, 5, 129); */
+}
 .affichePassword{
     background-color: rgb(69, 5, 129);
     display: flex;
-    height: 7.5vh;
-    width: 26.5vw;
     align-items: center;
-    margin-bottom: 1.5rem;
     font-size: 2rem;
     padding:1rem ;
+    border: none;
+    width: 20.5vw;
 
+}
+.couleurErreur{
+    color: red;
+    text-align: center
+}
+#copie{
+    display: flex;
+    float: right;
+    margin-left: auto;
+    color: black;
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+.visible{
+    visibility: hidden;
 }
 input.lenghtPassword{
     width: 3vw;
@@ -54,6 +90,8 @@ input.lenghtPassword{
     font-weight: bold;
     margin-top: 1.5rem;
     border: none;
-
-
+}
+.generationPassword:hover{
+background-color: blueviolet;
+color: rgb(236, 174, 57);;
 }
