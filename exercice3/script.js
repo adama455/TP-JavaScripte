@@ -42,10 +42,10 @@ function generateurMdp (){
     const Tab2=taDeRetour("saisieCritre3",tabMiniscul);
     const Tab3=taDeRetour("saisieCritre4",tabNombre);
     const Tab4=taDeRetour("saisieCritre5",tabCaracteres);
-    trousseau=trousseau.concat(Tab1,Tab2,Tab3,Tab4);
+    trousseau = trousseau.concat(Tab1,Tab2,Tab3,Tab4);
 
-    if (trousseau.length===0) {
-        affichePwd.innerText="veilles coher un critere svp!!";
+    if (trousseau.length === 0) {
+        affichePwd.innerText = "veilles coher un critere svp!!";
         affichePwd.setAttribute("class","affichePassword couleurErreur");
         setTimeout(()=>{
             affichePwd.setAttribute("class","affichePassword");

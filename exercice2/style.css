@@ -29,17 +29,23 @@
     width: 35vw;
     height: 30vw;
     padding-top: 2.5rem;
-    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
     box-sizing: border-box;
     flex-wrap: wrap;
-
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
 }
 .btnDirection{
     display: flex;
     flex-direction: column;
 }
+.btnDirection:hover{
+    background: blue;
+    color: white;
+    border: none;
+}
 button{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     background-color: rgb(190, 186, 186);
@@ -48,33 +54,38 @@ button{
     height: 5vh;
     margin: 1rem;
     cursor: pointer;
+    flex-wrap: wrap;
     /* color: white; */
 }
-.tableau tr{
+table .texteTitre{
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    justify-content: center;
 }
-.paragraphe{
-    padding: 1rem;
+#paragraphe{
+    display: flex;
+    padding: 1.5rem;
     font-size: 1.5em;
     cursor: pointer;
-    margin-left:1rem;
+    margin-left:1.5rem;
+    margin-top: 2rem;
+    /* border-left: 5px solid rgb(17, 193, 247); */
 }
 .survol{
     background-color: blue;
     color: white;
     width:60%;
-    margin-left: 1.5rem;
-
+    padding-left: 2rem;
+    border-radius: 5px;
 }
 
 .pagination{
     display: flex;
-    width: 100%;
+    width: inherit;
 }
 .btn{
-    font-size:30px;
+    font-size: inherit;
     color:blueviolet; 
     height:6vh; 
     font-weight:bold; 
@@ -87,7 +98,7 @@ a{
     text-decoration: none;
 }
 .btn:hover{
-    background-color: grey;
+    background-color: blue;
     color: white;
 }
 /* p:active {

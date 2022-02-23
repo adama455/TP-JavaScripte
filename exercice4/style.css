@@ -11,11 +11,24 @@
     height: 95vh;
     flex-direction: column;
 }
-.container{
+#quiz{
     background-color: white;
     display: flex;
     flex-direction: column;
-    height: 55vh;
+    height: auto;
+    width: 40vw;
+     box-shadow: 0 0 10px rgba(100, 100, 100, 0.1);  
+    /* flex-direction: column;
+    align-items: center; */
+    justify-content: center;
+    padding: 4rem;
+    border-radius: 1rem;
+}
+.resultat{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
     width: 40vw;
      box-shadow: 0 0 10px rgba(100, 100, 100, 0.1);  
     /* flex-direction: column;
@@ -75,4 +88,12 @@ button:focus{
     width:10vw;
     border: none;
     border-radius: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
 }
